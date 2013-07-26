@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- less -->
-    <?php echo Asset::less('teampalmtree/template.less'); ?>
+    <?php echo Asset::less('template.less'); ?>
     <!-- scripts -->
     <?php echo Asset::js('modernizr-2.6.2-respond-1.1.0.min.js'); ?>
     <?php echo Asset::js('jquery-1.10.1.min.js'); ?>
