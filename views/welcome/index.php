@@ -44,17 +44,17 @@
 <div class="row">
     <div class="span4">
         <h2>DISCOVER</h2>
-        <p>Learn about Team Palm Tree and our crazy past.</p>
+        <p>Learn about Team Palm Tree's history and what we see us affecting in the near future. Our goal is to reach out to the world and be the catalyst for positive alternative perception via life changing entertainment experiences.</p>
         <p><a class="btn" href="/discover">VIEW &raquo;</a></p>
     </div>
     <div class="span4">
         <h2>RAGE</h2>
-        <p>Attend one of our many gatherings or events.</p>
+        <p>Attend one of our many gatherings or events and experience the love we all share for friends and music. We are all ragers at heart and want to seek out as many people as possible to share in our projects and fun.</p>
         <p><a class="btn" href="/rage">VIEW &raquo;</a></p>
     </div>
     <div class="span4">
         <h2>CONTRIBUTE</h2>
-        <p>Help us break down the walls built in our world via one of our projects.</p>
+        <p>Help us break down the negative walls built up in our world and provide for the ability of others to see our shared world in a new light. From event management, open source software projects, and even radio stations, we are always looking for fresh ideas to reach our goals.</p>
         <p><a class="btn" href="/contribute">VIEW &raquo;</a></p>
     </div>
 </div>
