@@ -14,9 +14,6 @@ class Controller_TeamPalmTree extends Controller_Shared
         // set up the template for the UI
         if (!$this->is_restful())
         {
-            $this->template->network = View::forge('network/network');
-            $this->template->header = View::forge('teampalmtree/header');
-            $this->template->footer = View::forge('teampalmtree/footer');
             $this->template->navigation = View::forge('teampalmtree/navigation', array(
                 'section' => $this->section,
             ));
