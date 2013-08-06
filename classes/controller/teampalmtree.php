@@ -1,6 +1,6 @@
 <?php
 
-class Controller_TeamPalmTree extends Controller_Shared
+class Controller_TeamPalmTree extends Controller_TPT
 {
 
     public function router($method, $params)
