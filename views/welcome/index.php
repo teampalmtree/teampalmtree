@@ -1,4 +1,4 @@
-<div id="myCarousel" class="carousel slide tpt_carousel">
+<div id="myCarousel" class="carousel slide tpt-carousel">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -6,7 +6,7 @@
         <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
     <!-- Carousel items -->
-    <div class="carousel-inner tpt_carousel">
+    <div class="carousel-inner tpt-carousel">
         <div class="active item">
             <img src="assets/img/carousel/1.png" alt="">
             <div class="carousel-caption">

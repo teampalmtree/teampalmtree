@@ -6,7 +6,6 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="#">Team Palm Tree</a>
             <div id="navigation-collapse" class="nav-collapse collapse">
                 <ul class="nav">
                     <li class="<?php if ($section == 'home') echo 'active'; ?>"><a href="/">HOME</a></li>
