@@ -1,26 +1,32 @@
 <?php
 
-class Controller_TeamPalmTree extends Controller_TPT
+class Controller_TeamPalmTree extends Controller_Standard
 {
 
     public function router($method, $params)
     {
 
-        ////////////////////
-        // TEMPLATE SETUP //
-        ////////////////////
-
-        // if we aren't restful and aren't passing a REST key
-        // set up the template for the UI
+        // forward to router
+        parent::router($method, $params);
+        // tpt template setup
         if (!$this->is_restful())
         {
+            // site
+            $this->template->site = 'TPT';
+            // navigation
             $this->template->navigation = View::forge('teampalmtree/navigation', array(
                 'section' => $this->section,
             ));
-        }
 
-        // forward to FPHP router
-        parent::router($method, $params);
+            // set login button view
+            //$this->template->navigation->promoter_menu = Promoter::menu_view();
+            // set admin menu
+            //$this->template->navigation->promoter_menu->admin_menu = View::forge('gdmradio/adminmenu');
+
+            // header & footer
+            $this->template->section->header = View::forge('teampalmtree/header');
+            $this->template->section->footer = View::forge('teampalmtree/footer');
+        }
 
     }
 

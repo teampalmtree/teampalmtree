@@ -4,6 +4,7 @@
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
     <!-- Carousel items -->
     <div class="carousel-inner tpt-carousel">
@@ -12,6 +13,13 @@
             <div class="carousel-caption">
                 <h4>WE ARE TPT</h4>
                 <p>Our goal is to reach out to the world and be the catalyst for positive alternative perception via life changing entertainment experiences.</p>
+            </div>
+        </div>
+        <div class="item">
+            <a href="http://www.gdmradio.com"><img src="assets/img/carousel/GDMRadio.png" alt=""></a>
+            <div class="carousel-caption">
+                <h4>GDM Radio</h4>
+                <p>Gay Dance Music Radio will unite the LGBT community of Atlanta, the Southeast, and eventually the world by broadcasting a unique and superior mix of gay and electronic dance music, while providing a mental catalyst for the appreciation of the distinctive interests of LGBT individuals.</p>
             </div>
         </div>
         <div class="item">

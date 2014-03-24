@@ -274,6 +274,7 @@ return array(
 		    'orm',
             'less',
             'auth',
+            'promoter',
             'shared',
 		),
 
